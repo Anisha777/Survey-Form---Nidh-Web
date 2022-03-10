@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scable=No"/>
+    
+    <link rel="stylesheet" href="style.css">
+    <title>Survey Form</title>
+</head>
+<body>
+    <div class="title">
+         <h1 id="heading">Nidh Web Survey Form</h1>
+         <h2 id="sub-heading"><i>Surveys show that surveys never lie</i></h2>
+    </div>
+    <form>
+  <div id="main">
+             <label>Name</label><br><br>
+             <input type="text" name="name" placeholder="Enter your name" class="box"><br><br>
+             <label>Email</label><br><br>   
+             <input type="email" name="email" placeholder="Enter your email" class="box"><br><br>
+             <label >Age(optional)</label><br><br>
+             <input type="age" name="age" placeholder="Enter your age" class="box"><br> <br>
+             <label>Which option best describe your current role?</label><br><br>
+     <div id="option1">
+            <select >
+                   <option name="Select your role">Select your role</option>
+                   <option value="Frontend Develope">Frontend Developer</option>
+                   <option value=">Backend Developer">Backend Developer</option>
+                   <option value="Fullstack Developer">Fullstack Developer</option>
+                   <option value="Graphic Designer">Graphic Designer</option>
+                   <option value="other">other</option>
+             </select>
+     </div>
+        
+         <br>
+         <label id="top1">Would you recommend Nidh Web to a friend?</label><br><br>
+         <input type="radio" name="radio" class="reco">Definitely<br><br>
+         <input type="radio" name="radio" class="reco">May be<br><br>
+         <input type="radio" name="radio" class="reco">Not Sure<br><br>
+         <label> What is your favourite of Nidh Web </label>
+     <div id ="option2">
+             <select>
+                 <option name="Select an option"> Select an option</option>
+                <option value="Challenge">Challenge</option>
+                <option value="Projects">Projects</option>
+                <option value="mentor">Mentor</option>
+                <option value="Open Source">Open Source</option>
+
+             </select>
+
+     </div>
+     <br><br>
+     <label id="ask">What would you like to see improved?(Check all that apply)</label><br><br>
+     <div class="content">
+         <input type="checkbox" name="checkcboc" class="large"><label>Frontend project</label><br><br>
+         <input type="checkbox" name="checkcboc" class="large"><label>Backend project</label><br><br>
+         <input type="checkbox" name="checkcboc" class="large"><label>Animation creation</label><br><br>
+         <input type="checkbox" name="checkcboc" class="large"><label>challenge</label><br><br>
+         <input type="checkbox" name="checkcboc" class="large"><label>Free tutor</label><br><br>
+         <input type="checkbox" name="checkcboc" class="large"><label>gitter help rooms</label><br><br>
+         <input type="checkbox" name="checkcboc" class="large"><label>vides</label><br><br>
+         <input type="checkbox" name="checkcboc" class="large"><label>Practise Projects</label><br><br>
+         <input type="checkbox" name="checkcboc" class="large"><label>wiki</label><br><br>
+         <input type="checkbox" name="checkcboc" class="large"><label>Forum</label><br><br>
+         <input type="checkbox" name="checkcboc" class="large"><label>additional courses </label><br><br>
+     
+     <label class="ask1">Any comment or sugesstion?<br></label><br>
+     <textarea placeholder="Enter your comment here..."></textarea><br>
+     <button><h3>Submit</h3></button>
+    </div>
+      </div>
+    </form>
+
+   
+</body>
+</html>

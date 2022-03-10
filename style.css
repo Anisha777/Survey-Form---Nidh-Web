@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(./images/pix..jpeg);
+    background-size: cover;
+    color: #fff;
+    background-color: rgba(24, 110, 171, 0.7);
+    background-blend-mode: multiply;
+    font-size: 1.1em;
+    font-family: 'poppins',sans-serif;
+}
+.title{
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    margin-top: 100px;
+
+}
+#heading{
+    font-size: 1.8em;
+
+}
+#sub-heading{
+    font-size: 18px;
+    margin-top: 10px;
+}
+#main{
+    width: 90%;
+    margin: auto;
+}
+form{
+    background-color: rgba(8, 4, 4, 0.7);
+    padding-top: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 54%;
+    border-radius: 6px;
+    margin: auto;
+    margin-top: 10px;
+    padding-bottom: 60px;
+}
+form .box{
+    width: 98.5%;
+    height: 2.8em;
+    position: relative;
+    bottom: 10px;
+    border: 0;
+    border-radius: 6px;
+}
+#option1 select{
+    width: 98.5%;
+    height: 2.7em;
+    position: relative;
+    bottom: 10px;
+    border: 0;
+    border-radius: 6px;
+}
+#option2 select{
+    width: 98.5%;
+    height: 2.7em;
+    position: relative;
+    top: 10px;
+    border: 0;
+    border-radius: 6px;
+}
+.content{
+    margin-top: 10px;
+}
+.content textarea{
+    width: 98.5%;
+    height: 125px;
+    position: relative;
+    bottom: 17px;
+}
+button{
+    width: 98.5%;
+    height: 3em;
+    position: relative;
+    top: 11px;
+    background-color: rgb(17, 8, 73);
+    border: none;
+    color: rgb(36, 137, 165);
+    margin-bottom: 10px;
+    cursor: pointer
+    ;
+}
+textarea::placeholder{
+    font-size: 1.4em;
+    position: relative;
+    top: 8px;
+    left: 5px;
+    width: 70%;
+}
+input::placeholder{
+    font-size: 1.1em;
+    position: relative;
+    left: 10px;
+    width: 50%;
+    font-weight:500 ;
+}
+input .reco{
+    width: 20px;
+    height: 20px;
+
+}
+@media screen and(max-width:600px)  {
+    form{
+        width: 100%;
+        margin:auto ;
+    }
+}

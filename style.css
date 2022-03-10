@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background-image: url(./images/pix.jpeg) fixed center;
+    background: url(./images/pix.jpeg) fixed center;
     background-size: cover;
     color: #fff;
 /*     background-color: rgba(24, 110, 171, 0.7); */
@@ -11,7 +11,7 @@ body{
     background-blend-mode: multiply;
     font-size: 1.1em;
     font-family: 'poppins',sans-serif;
-    margin-right:150px;
+    
 }
 .title{
     text-align: center;
